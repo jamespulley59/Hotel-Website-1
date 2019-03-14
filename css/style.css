@@ -5,7 +5,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
 /* Utility */
+
+.clr{
+    clear: both;
+}
+
 a {
     text-decoration: none;
 }
@@ -146,4 +156,11 @@ nav ul li a.current, nav ul li a:hover {
     width: 33.3%;
     padding: 50px;
     text-align: center;
+    min-height: 300px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
 }
